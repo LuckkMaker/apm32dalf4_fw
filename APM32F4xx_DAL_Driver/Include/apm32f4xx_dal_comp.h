@@ -50,6 +50,8 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "apm32f4xx_dal_def.h"
 
+#if defined(APM32F411xx)
+
 /** @addtogroup APM32F4xx_DAL_Driver
   * @{
   */
@@ -433,7 +435,7 @@ uint32_t              DAL_COMP_GetError(COMP_HandleTypeDef * hcomp);
 /**
   * @}
   */
-
+#endif /* APM32F411xx */
 #ifdef __cplusplus
 }
 #endif

@@ -201,6 +201,7 @@
  */
 
 #ifdef DAL_COMP_MODULE_ENABLED
+#if defined(APM32F411xx)
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
@@ -831,6 +832,7 @@ uint32_t DAL_COMP_GetError(COMP_HandleTypeDef *hcomp)
  * @}
  */
 
+#endif /* APM32F411xx */
 #endif /* DAL_COMP_MODULE_ENABLED */
 
 /**

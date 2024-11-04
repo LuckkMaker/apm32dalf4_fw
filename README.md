@@ -1,13 +1,14 @@
-# omni apm32dalf4 fw
+# apm32dalf4_fw
 
-[![Version](https://img.shields.io/github/v/release/MorroGeek/apm32dalf4_fw)](https://github.com/MorroGeek/apm32dalf4_fw/releases/latest)
+[![Version](https://img.shields.io/github/v/release/LuckkMaker/apm32dalf4_fw)](https://github.com/LuckkMaker/apm32dalf4_fw/releases/latest)
 
 
 ## Introduction
 
-The apm32f4 dal firmware is a component of the omni.
+**apm32dalf4_fw** 是 [omni-sdk](https://github.com/LuckkMaker/omni-sdk) 的一个组件库，基于`Geehy`官方 SDK。
 
-Omni is the Swiss Army Knife of embedded systems. It is designed to be simple, efficient, and easy to use. It includes all the features you need to develop embedded products based on an arm cortex-m microcontroller.
+**omni-cmsis-freertos** 是 [omni-sdk](https://github.com/LuckkMaker/omni-sdk) 的一个组件库。 它基于 [CMSIS-FreeRTOS](https://github.com/ARM-software/CMSIS-FreeRTOS) 项目，增加 CMakeLists.txt 使其能够与 omni 一起使用。
 
-You can get it from the [releases page](https://github.com/MorroGeek/omni/releases).
+[omni-sdk](https://github.com/LuckkMaker/omni-sdk) 项目是一个利用 CMake 和 kconfig 构建的嵌入式开发框架，同时提供 HAL 层驱动和各种组件驱动。可以根据不同板卡、不同模块的需求，自由选择需要的组件，构建自己的固件。并且提供 dev container 的支持，可以在 docker 容器中快速开发、编译、调试固件，免去搭建开发环境的烦恼。
 
+可以从 [releases page](https://github.com/LuckkMaker/omni-sdk/releases) 获取最新的 omni-sdk 版本。
